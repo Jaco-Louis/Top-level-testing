@@ -1,0 +1,19 @@
+Security
+
+The system needs to support:
+
+Authentication against a chosen user repository: (initially against the LDAP repository of the Computer Science Department of the University of Pretoria).
+
+The system requires a username and a password to perform authentication and to allow the user to log in. The system successfully performs authentication against the LDAP repository of the CS Department. 
+
+
+
+
+
+Auditability
+
+The system does not log any requests or responses. 
+
+Testability
+
+
