@@ -12,12 +12,25 @@ Adds an authorization restriction for a user role and a particular buzz space (i
 -authorization restriction must be persisted (not implemented)\\
 \end {itemize}
 
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{buzzAuthorizationAddRestrictionCode}
+    \caption{Add restriction}
+\end{figure}
+
+
 \item {isAuthorized}\\
 Service used to determine which system services are available to the user. (implemented in code only, no functional way to test)
 \begin {itemize}
 \item Pre-conditions: \\
 -buzz space is active (not implemented)\\ 
 \end{itemize}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{buzzAuthorizationIsAuthorizedCode}
+    \caption{isAuthorized}
+\end{figure}
 
 \item {removeAuthorizationRestriction}\\
 Removes an authorization restriction for a user role and a particular buzz space (implemented in code only, no functional way to test)
@@ -28,6 +41,12 @@ Removes an authorization restriction for a user role and a particular buzz space
 \item Post-conditions: \\
   -authorization restriction for the user role must be removed from the buzz space (not implemented)
 \end{itemize}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{buzzAuthorizationRemoveRestrictionCode}
+    \caption{Remove restriction}
+\end{figure}
  
 \item{getAuthorizationRestrictions}
 Returns authorization restrictions for a buzz space from the database (implemented in code only, no functional way to test) \\
@@ -50,7 +69,11 @@ Facilitates editing of authorization restrictions for a buzz space (implemented 
   -new authorization restriction persisted to database (implemented in code only, no functional way to test)
 \end{itemize}
 
-
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{buzzAuthorizationUpdateRestrictionsCode}
+    \caption{Update restriction}
+\end{figure}
 
 \end{itemize}
 
