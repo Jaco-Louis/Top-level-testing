@@ -1,0 +1,35 @@
+\item Buzz Space
+
+Fucntional Testing - Buzz Spaces
+
+\begin{itemize}
+
+\item Login and Administrative User:
+Test results:
+- This system is able to login a registered user (student/administrator) and no violation of service contract, so user successfully login. As reflected by the screenshots.
+
+\item Create Buzz Space:
+Test results:
+- From the GUI point of view, onclick to open current spaces or create a new Buzz space, the system fails.
+List of violations of the contract requirememnts:\\
+- Well since the system's createBuzzSpace was not implemented, all contract requirements were not met or were violated. It fails all the test cases at first attempt. [The screenshots depict that]\\
+
+
+\item Close Buzz Space:
+Test results:
+- Again, since there was no any buzz spaces created above (no implementation as of the GUI), then there is obviously no buzz spaces to close. Hence, all contract requirements were violated. So an exception must be raised because there is nothing to close.\\
+
+\item Register On Buzz Space:
+Test results:
+- As of the GUI, there is no space (or link) to a certain registration page which implies that no implementation for this use case. Only 'pre-registered' users are on the space. No new users can be registered. \\
+
+
+\item Get Profile For user:
+Test results:
+- The user profile can be successfully retrieved, viewed, but the profile picture cannot be modified.
+List of violations of the contract requirememnts:\\
+• Profile modification failed.
+
+
+
+\end{itemize}
