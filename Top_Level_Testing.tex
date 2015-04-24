@@ -88,6 +88,22 @@ The following screenshots involve some of the testing done on higher level integ
     \includegraphics[width=0.85\textwidth]{TestAuto} 
 \end{figure}
 
+The testing was performed using mocha. The threads module passed all five use cases, while notifications, csds, and authorization passed some yet failed others. Screenshots have been included to reflect the results of the tests performed.
+
+Upon runnning the Handle Bars server, errors were printed to the terminal.
+one test was passed and three were failed.
+
+Database connection was successful, and Buzz could be access from a browser.
+The server correctly printed feedback to the terminal about requests that it was receiving.
+
+The Reports Page was found to be working. Reports could be downloaded as required.
+
+Upon a login attempt, the server crashed. The request that caused the crash was "/submitCSDS"
+
+Setting constraints on file sizes for file types was found to be working.
+
+The "/testPost" page gave a 404 error.
+
 
 \end {enumerate}
  
