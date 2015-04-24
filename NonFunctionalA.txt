@@ -60,7 +60,7 @@ The functional code in the seperate packages must be placed in an exportable fun
 
 Exports are also used in the different files to make the code accessible to the other files.
 
-The following screenshot indicates the systems' integratibility because it is clear that the following function is able to accept standards such as json strings for objects. This is intergrateble because the interface does not know which functions are sending the aforementioned objects. Therefore it allows the interface to be connected to any backend system.
+The following screenshot indicates the systems' integratibility because it is clear that the following function is able to accept standards such as json strings for objects. This is intergrateble because the interface does not know which functions are sending the aforementioned objects. Therefore it allows the interface to be connected to any backend system. 
 
 Deployability
 __________________________________________________________________
