@@ -2,7 +2,7 @@ Security
 
 The system is not secure in all areas. It requires a username and password in order for a user to login. The system successfully performs authentication against the LDAP repository. It does not allow users without the necessary authorisation to delete buzz spaces, but anyone can create a buzz space whether they are logged in or not. Only authorised users can add or remove admins. The system is also somewhat configurable, MIME types can be added, edited, and removed, but the system does not take authorisation level or whether a user is logged in into account for these actions, anyone can perform these actions. Admin users cannot configure access to certain services.
 
-Log in
+The log in user interface:
 
 //logFile.png
 
@@ -68,6 +68,5 @@ In this instance authorisation is checked outside of the module that is was crea
 
 For both the user tests and the integration tests it is verified that all the pre-conditions are met 
 
-The system is thus only testable in some cases. 
-
+The system is thus only testable in some cases, but there is a lot of potential to add further test cases as the system is set up in such a way that makes testing more convenient.
 
