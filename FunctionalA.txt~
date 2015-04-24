@@ -1,0 +1,93 @@
+Parts of the system that 
+
+Buzz-Authorization 
+
+
+
+Buzz-Spaces
+Use cases
+*createBuzzSpace - This is the service which enables a lecturer to create a Buzz space for a particular module they present.
+    Pre-conditions:
+        -buzzSpaceExists (should not be able to create a duplicate buzz space) (implemented, was unable to create a space that already existed)
+        -moduleNotActive (for the current year) (not implemented, was able to create a space for a non existent module)
+        -notAuthorized (only an authorized user can create a buzz space) (not implemented, was able to create a space without signing in as a lecturer)
+    Post-conditions:
+        -storeBuzzSpace (persist the new buzz space)(implemented, new buzz space was reflected in system once user is returned to home page)
+        -lecturer registered on the buzz space (not implemented)
+        -lecturer assigned as administrator of the buzz space (not implemented)
+        -Create welcome message as root thread for the buzz space (not implemented)
+
+*closeBuzzSpace - This is the service used to set a buzz space to inactive.
+    Pre-conditions:
+        -noSuchBuzzSpace (if buzz space to be closed does not exist then one can't close it) (was unable to find a non existent buzz space to test this)
+        -notAuthorized (only an admin user of a buzz space can close the buzz space) (not implemented, was able to close a space I was not an admin for)
+    Post-conditions:
+        -buzz space no longer active (reflected upon returning to the home page)
+
+*registerOnBuzzSpace - This service is used to create a profile for a user on a particular buzz space.
+    Pre-conditions:
+        -notAuthorized (user is registered for the module to which the space is associated) (not implemented, was able to register a fake user successfully)
+        -buzz space active (implemented, only able to access register for spaces which are active on home page)
+    Post-conditions:
+        -user profile persisted to database (implemented) (screenshots provided for proof)
+        
+*getProfileForUser - Simply returns the profile the user has on the buzz space
+    Code found but no functional implementation exists in the system that could be tested
+//----------------------------------------------------
+Buzz-Data-Sources
+Use cases
+*login - Using a provided username and password authenticates the user against details retrieved from an ldap repository
+    Pre-conditions:
+        -could connect to CS data source (LDAP) (implemented in code only, no functional way to test)
+        -user exists in ldap with provided authentication details (code indicates this is checked by performing a bind to ldap using the provided details)
+    Post-conditions:
+        -userID returned (not implemented)
+
+*getUsersRolesForModule - retrieves the roles of a user for a particular module by querying the LDAP repository (no functional way to test)
+    Pre-conditions:
+        -could connect to CS data source (LDAP) (implemented in code only, no functional way to test)
+        -module active (not implemented)
+
+*getUsersWithRole - retrieves all users with a particular role for a particular module (no functional way to test)
+    Pre-conditions:
+        -could connect to CS data source (LDAP) (implemented in code only, no functional way to test)
+
+*getActiveModulesForYear - retrieves all modules in LDAP which are active for the current year (no functional way to test)
+    Pre-conditions:
+        -could connect to CS data source (LDAP) (implemented in code only, no functional way to test)
+        //////////////////////////////////
+Buzz-Resources
+Buzz-Status
+
+Use cases 
+AssessProfile - This is where the lecturers can specify different ways to assess the students. In the current system, this functionality is not present.
+SetStatusCalculator - This is where the status is calculated according to the number of posts the user has made. Again, this functionality does not exist in the sysemt and hence cannot be tested. 
+
+getStatusForProfile- This query returns status for a specific profile. 
+createAppraisalType - New appraisal types are created that can be reused. The current system makes use of this functionlaity where a user can add appraisals under the 
+appraisal tab on the menu bar, where an option exists to add an appraisal type. The various options that exist, regarding this, is adding appraisal name, description, and adding apprasials on different levels by adding new levels with descriptors and ratings.
+
+activateAppraisalType - this use case activates an appraisal type for a specified period on a specific buzz space. This was not implemented.
+//////////////////////////////////////////////////////////////
+Buzz-Notification
+In the master specification it was specified that the Notifications module should have the following pre and post conditions. The post conditions were firstly, that a notification be sent out if buzz space has been created for module and the buzz space is open. Secondly, when a lecturer has been assignmed as space administrator and when a lecturer's profile has been created. Also, the root thread with the welcome post created for the buzz space. The pre conditions were that no buzz spaces exist for that module in the current year. Also, that a user is a lecturer in a specific module. 
+
+Use cases
+
+RegisterForNotifications - a user can register if he/she would like to recieve notifications regarding any actions performed on the buzz. This was a nice to have and although the functional teams and integration teams implemented this feature, this feature was not implemented in top level integration.
+
+
+The system notifies a user when .....  
+
+Web module
+Buzz-reporting (no pre/post conditions found in masterspec)
+Use cases
+*getThreadStats - returns statistical information of subsets of posts complying with specified restrictions (code present but no functional way to test from system)
+*getThreadAppraisal - (code not present, not implemented, not testable)
+*exportThreadAppraisal - (code not present, not implemented, not testable)
+*importThreadAppraisal - (code not present, not implemented, not testable)
+*exportThread - service to backup the content of a thread (implemented in code only, no functional way to test from system)
+*importThread - service to restore the content of a thread (implemented in code only, no functional way to test from system)
+
+Buzz-Android Client
+Buzz-Hamster-Integration

@@ -30,15 +30,14 @@ This is the service used to set a buzz space to inactive.
 This service is used to create a profile for a user on a particular buzz space.
 \begin {itemize}
 \item Pre-conditions: \\
--notAuthorized (user is registered for the module to which the space is associated) (not implemented, was able to register a fake user successfully)\\
+-notAuthorized (user is registered for the module to which the space is associated) (not implemented, was able to register a fake user successfully)
         -buzz space active (implemented, only able to access register for spaces which are active on home page)\\
-\item Post-conditions: \\
- -user profile persisted to database (implemented) (screenshots provided for proof)\\
+\item Post-conditions: \
+ -user profile persisted to database (implemented) (screenshots provided for proof)
 \end{itemize}
 
 \item{getProfileForUser}
-Simply returns the profile the user has on the buzz space\\
-Code found but no functional implementation exists in the system that could be tested \\
+Simply returns the profile the user has on the buzz space
+Code found but no functional implementation exists in the system that could be tested 
 \end{itemize}
 
-\end{itemize}

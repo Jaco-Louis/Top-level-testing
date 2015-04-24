@@ -4,8 +4,7 @@
 \item {getThreadStats}\\ 
 Returns statistical information of subsets of posts complying with specified restrictions (code present but no functional way to test from system)\\
 \end {itemize}
-
-
+ 
 
 \begin {itemize}
 \item {getThreadAppraisal}\\ 
@@ -32,4 +31,6 @@ Service to backup the content of a thread (implemented in code only, no function
 \item {importThread}\\ 
 Service to backup the content of a thread (implemented in code only, no functional way to test from system) \\ 
 \end {itemize}
+
+
 \end {itemize}

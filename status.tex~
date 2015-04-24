@@ -1,0 +1,26 @@
+\begin {itemize}
+\item Use Cases
+\begin {itemize}
+\item {AssessProfile}\\ 
+This is where the lecturers can specify different ways to assess the students. In the current system, this functionality is not present.
+SetStatusCalculator - This is where the status is calculated according to the number of posts the user has made. Again, this functionality does not exist in the sysemt and hence cannot be tested. 
+\end {itemize}
+\end {itemize}
+
+\begin {itemize}
+\item {AssessProfile}\\ 
+This is where the lecturers can specify different ways to assess the students. In the current system, this functionality is not present.
+SetStatusCalculator - This is where the status is calculated according to the number of posts the user has made. Again, this functionality does not exist in the sysemt and hence cannot be tested. \\ 
+\end {itemize}
+
+\begin {itemize}
+\item {getStatusForProfile}\\ 
+This query returns status for a specific profile. 
+createAppraisalType - New appraisal types are created that can be reused. The current system makes use of this functionality where a user can add appraisals under the appraisal tab on the menu bar, where an option exists to add an appraisal type.\\ The various options that exist, regarding this, is adding appraisal name, description, and adding apprasials on different levels by adding new levels with descriptors and ratings. \\
+\end {itemize}
+
+\begin {itemize}
+\item {activateAppraisalType}\\ 
+This use case activates an appraisal type for a specified period on a specific buzz space. This was not implemented.
+\end {itemize}
+\end {itemize}
