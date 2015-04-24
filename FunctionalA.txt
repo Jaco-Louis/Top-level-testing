@@ -33,6 +33,7 @@ Use cases
     Code found but no functional implementation exists in the system that could be tested
 
 Buzz-Data-Sources
+Use cases
 *login - Using a provided username and password authenticates the user against details retrieved from an ldap repository
     Pre-conditions:
         -could connect to CS data source (LDAP) (implemented in code only, no functional way to test)
@@ -77,6 +78,14 @@ RegisterForNotifications - a user can register if he/she would like to recieve n
 The system notifies a user when .....  
 
 Web module
-Buzz-reporting 
+Buzz-reporting (no pre/post conditions found in masterspec)
+Use cases
+*getThreadStats - returns statistical information of subsets of posts complying with specified restrictions (code present but no functional way to test from system)
+*getThreadAppraisal - (code not present, not implemented, not testable)
+*exportThreadAppraisal - (code not present, not implemented, not testable)
+*importThreadAppraisal - (code not present, not implemented, not testable)
+*exportThread - service to backup the content of a thread (implemented in code only, no functional way to test from system)
+*importThread - service to restore the content of a thread (implemented in code only, no functional way to test from system)
+
 Buzz-Android Client
 Buzz-Hamster-Integration
