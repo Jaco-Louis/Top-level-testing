@@ -1,9 +1,15 @@
 \item Auditability:
 
-The Buzz Space system is partially auditable, only the requests for the user serves of the system are logged. The logged request only contains:
+The figure below shows that the Buzz Space system is partially auditable, only the requests for the user serves of the system are logged. The logged request only contains:
 \begin{itemize}
 \item User serves requested.
 \item Request object stringified as JSON
 \end{itemize}
 
 There are no log responses that are provided by the system, and the serves required to extract information from the audit logs is also not available not provided.
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{BuzzBAuditability}
+    \caption{Buzz Space B Auditability Test}
+\end{figure}
