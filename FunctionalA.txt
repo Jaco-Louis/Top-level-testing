@@ -33,6 +33,26 @@ Use cases
     Code found but no functional implementation exists in the system that could be tested
 
 Buzz-Data-Sources
+*login - Using a provided username and password authenticates the user against details retrieved from an ldap repository
+    Pre-conditions:
+        -could connect to CS data source (LDAP) (implemented in code only, no functional way to test)
+        -user exists in ldap with provided authentication details (code indicates this is checked by performing a bind to ldap using the provided details)
+    Post-conditions:
+        -userID returned (not implemented)
+
+*getUsersRolesForModule - retrieves the roles of a user for a particular module by querying the LDAP repository (no functional way to test)
+    Pre-conditions:
+        -could connect to CS data source (LDAP) (implemented in code only, no functional way to test)
+        -module active (not implemented)
+
+*getUsersWithRole - retrieves all users with a particular role for a particular module (no functional way to test)
+    Pre-conditions:
+        -could connect to CS data source (LDAP) (implemented in code only, no functional way to test)
+
+*getActiveModulesForYear - retrieves all modules in LDAP which are active for the current year (no functional way to test)
+    Pre-conditions:
+        -could connect to CS data source (LDAP) (implemented in code only, no functional way to test)
+        
 Buzz-Resources
 Buzz-Status
 
