@@ -1,0 +1,19 @@
+\begin {itemize}
+\item Use Cases
+\begin {itemize}
+\item {createBuzzSpace}\\
+This is the service which enables a lecturer to create a Buzz space for a particular module they present.
+\begin {itemize}
+\item Pre-conditions:\\
+-buzzSpaceExists (should not be able to create a duplicate buzz space) (implemented, was unable to create a space that already existed)\\
+-moduleNotActive (for the current year) (not implemented, was able to create a space for a non existent module)\\
+-notAuthorized (only an authorized user can create a buzz space) (not implemented, was able to create a space without signing in as a lecturer)\\
+
+\item Post-conditions:\\
+-storeBuzzSpace (persist the new buzz space)(implemented, new buzz space was reflected in system once user is returned to home page)\\
+-lecturer registered on the buzz space (not implemented)\\
+-lecturer assigned as administrator of the buzz space (not implemented)\\
+-Create welcome message as root thread for the buzz space (not implemented)\\
+\end {itemize}
+\end{itemize}
+\end{itemize}
