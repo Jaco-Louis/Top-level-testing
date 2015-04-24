@@ -31,7 +31,7 @@ Use cases
         -new authorization restriction persisted to database (implemented in code only, no functional way to test)
 
 
-
+************************************
 Buzz-Spaces
 Use cases
 *createBuzzSpace - This is the service which enables a lecturer to create a Buzz space for a particular module they present.
