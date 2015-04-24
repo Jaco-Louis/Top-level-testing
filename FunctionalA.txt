@@ -1,6 +1,34 @@
 Parts of the system that 
 
-Buzz-Authorization 
+Buzz-Authorization
+Use cases
+*addAuthorizationRestriction - adds an authorization restriction for a user role and a particular buzz space (implemented in code only, no functional way to test)
+    Pre-conditions:
+        -an authorization restriction does not yet exist for the specified user role and buzz space (not implemented)
+        -user has administrative rights (not implemented)
+    Post-conditions:
+        -authorization restriction must be persisted (not implemented)
+        
+*isAuthorized - service used to determine which system services are available to the user. (implemented in code only, no functional way to test)
+    Pre-conditions:
+        -buzz space is active (not implemented)
+        
+*removeAuthorizationRestriction - removes an authorization restriction for a user role and a particular buzz space (implemented in code only, no functional way to test)
+    Pre-conditions:
+        -user has administrator role (not implemented)
+    Post-conditions:
+        -authorization restriction for the user role must be removed from the buzz space (not implemented)
+        
+*getAuthorizationRestrictions - returns authorization restrictions for a buzz space from the database (implemented in code only, no functional way to test)
+    Pre-conditions:
+        -user has administrator role for space being queried (not implemented)
+        -buzz space is active (not implemented)
+
+*updateAuthorizationRestrictions -  facilitates editing of authorization restrictions for a buzz space (implemented in code only, no functional way to test)
+    Pre-conditions:
+        -user has administrator role for space being queried (not implemented)
+    Post-Conditions:
+        -new authorization restriction persisted to database (implemented in code only, no functional way to test)
 
 Buzz-Spaces
 Use cases
