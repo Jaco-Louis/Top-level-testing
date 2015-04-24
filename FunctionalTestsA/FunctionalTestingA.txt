@@ -1,0 +1,25 @@
+Use Case Testing
+
+Threads was the only module with use cases that were clear to run.
+Threads module passed all five use cases, tested with Mocha.
+
+
+User testing
+
+Upon runnning the Handle Bars server, errors were printed to the terminal.
+one test was passed and three were failed.
+Database connection was successful, and Buzz could be access from a browser.
+The server correctly printed feedback to the terminal about requests that it was receiving.
+
+The Reports Page was found to be working.
+Reports could be downloaded as required.
+
+Upon a login attempt, the server crashed. The request that caused the crash was "/submitCSDS"
+
+Setting constraints on file sizes for file types was found to be working.
+
+The "/testPost" page gave a 404 error.
+
+
+
+
