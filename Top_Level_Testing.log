@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.9)  24 APR 2015 18:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.22)  24 APR 2015 18:32
 entering extended mode
 **Top_Level_Testing.tex
-(C:\Users\User\Documents\GitHub\Top-level-testing\Top_Level_Testing.tex
+("C:\Users\GASwipper Gcc\Documents\Top-level-testing\Top_Level_Testing.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -439,7 +439,7 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(C:\Users\User\Documents\GitHub\Top-level-testing\Top_Level_Testing.aux)
+("C:\Users\GASwipper Gcc\Documents\Top-level-testing\Top_Level_Testing.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
@@ -496,14 +496,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/User/Documents/G
-itHub/Top-level-testing/images/UPlogo.jpg>]
-(C:\Users\User\Documents\GitHub\Top-level-testing\Top_Level_Testing.toc)
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/GASwipper Gcc/Do
+cuments/Top-level-testing/images/UPlogo.jpg>]
+("C:\Users\GASwipper Gcc\Documents\Top-level-testing\Top_Level_Testing.toc")
 \tf@toc=\write3
 
 [2
 
-] (C:\Users\User\Documents\GitHub\Top-level-testing\buzzspacesA.tex
+] ("C:\Users\GASwipper Gcc\Documents\Top-level-testing\buzzspacesA.tex"
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 2.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -556,7 +556,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
  []
 
-) (C:\Users\User\Documents\GitHub\Top-level-testing\dataSources.tex [4]
+[4]) ("C:\Users\GASwipper Gcc\Documents\Top-level-testing\dataSources.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
  []
@@ -576,33 +576,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-) (C:\Users\User\Documents\GitHub\Top-level-testing\status.tex
+) ("C:\Users\GASwipper Gcc\Documents\Top-level-testing\status.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 10--13
 
  []
 
-) (C:\Users\User\Documents\GitHub\Top-level-testing\reporting.tex [6]
+[6]) ("C:\Users\GASwipper Gcc\Documents\Top-level-testing\reporting.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
 
-<images/buzzReportingGetThreadStatsCode.jpeg, id=55, 547.30315pt x 614.71034pt>
+<images/buzzReportingGetThreadStatsCode.jpeg, id=54, 547.30315pt x 614.71034pt>
 File: images/buzzReportingGetThreadStatsCode.jpeg Graphic file (type jpg)
 <use images/buzzReportingGetThreadStatsCode.jpeg>
 Package pdftex.def Info: images/buzzReportingGetThreadStatsCode.jpeg used on in
 put line 10.
 (pdftex.def)             Requested size: 331.50238pt x 372.33705pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
@@ -613,8 +617,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-[7 <C:/Users/User/Documents/GitHub/Top-level-testing/images/buzzReportingGetThr
-eadStatsCode.jpeg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
@@ -624,7 +627,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-<images/buzzReportingExportThreadCode.jpeg, id=61, 547.30315pt x 301.54034pt>
+<images/buzzReportingExportThreadCode.jpeg, id=55, 547.30315pt x 301.54034pt>
 File: images/buzzReportingExportThreadCode.jpeg Graphic file (type jpg)
 
 <use images/buzzReportingExportThreadCode.jpeg>
@@ -632,11 +635,15 @@ Package pdftex.def Info: images/buzzReportingExportThreadCode.jpeg used on inpu
 t line 36.
 (pdftex.def)             Requested size: 331.50238pt x 182.64641pt.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-<images/buzzReportingImportThreadCode.jpeg, id=62, 547.30315pt x 170.29138pt>
+<images/buzzReportingImportThreadCode.jpeg, id=56, 547.30315pt x 170.29138pt>
 File: images/buzzReportingImportThreadCode.jpeg Graphic file (type jpg)
 
 <use images/buzzReportingImportThreadCode.jpeg>
@@ -647,9 +654,10 @@ t line 46.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [8 <C:/Users/User/Documents/GitHub/Top-level-testing/images/buzzReportingExpo
-rtThreadCode.jpeg>] [9 <C:/Users/User/Documents/GitHub/Top-level-testing/images
-/buzzReportingImportThreadCode.jpeg>] [10]
+) [7] [8 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/buzzReporti
+ngGetThreadStatsCode.jpeg>] [9 <C:/Users/GASwipper Gcc/Documents/Top-level-test
+ing/images/buzzReportingExportThreadCode.jpeg> <C:/Users/GASwipper Gcc/Document
+s/Top-level-testing/images/buzzReportingImportThreadCode.jpeg>] [10]
 <images/logFile.png, id=78, 757.32938pt x 333.49594pt>
 File: images/logFile.png Graphic file (type png)
 
@@ -677,7 +685,7 @@ Package pdftex.def Info: images/addAdmin.png used on input line 130.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11 <C:/Users/User/Documents/GitHub/Top-level-testing/images/logFile.png>]
+[11 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/logFile.png>]
 File: images/logFile.png Graphic file (type png)
 
 <use images/logFile.png>
@@ -737,7 +745,9 @@ Package pdftex.def Info: images/ClosedSpaceLog.png used on input line 180.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/unit_tests.png, id=92, 610.53094pt x 444.91219pt>
+[12 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/closeBuzzSpace.p
+ng> <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/addAdmin.png>]
+<images/unit_tests.png, id=96, 610.53094pt x 444.91219pt>
 File: images/unit_tests.png Graphic file (type png)
 
 <use images/unit_tests.png>
@@ -747,18 +757,22 @@ Package pdftex.def Info: images/unit_tests.png used on input line 189.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/integration.png, id=93, 594.72188pt x 313.17pt>
+<images/integration.png, id=97, 594.72188pt x 313.17pt>
 File: images/integration.png Graphic file (type png)
 
 <use images/integration.png>
 Package pdftex.def Info: images/integration.png used on input line 199.
 (pdftex.def)             Requested size: 331.50238pt x 174.56163pt.
- [12 <C:/Users/User/Documents/GitHub/Top-level-testing/images/closeBuzzSpace.pn
-g> <C:/Users/User/Documents/GitHub/Top-level-testing/images/addAdmin.png>]
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/performance1.png, id=99, 1008.01593pt x 118.94438pt>
+[13 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/logs.png> <C:/Us
+ers/GASwipper Gcc/Documents/Top-level-testing/images/buzzNotExistLog.png> <C:/U
+sers/GASwipper Gcc/Documents/Top-level-testing/images/couldNotFindSpaceLog.png>
+ <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/manageSpaceLog.png>
+ <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/ClosedSpaceLog.png>
+] <images/performance1.png, id=104, 1008.01593pt x 118.94438pt>
 File: images/performance1.png Graphic file (type png)
 
 <use images/performance1.png>
@@ -768,7 +782,7 @@ Package pdftex.def Info: images/performance1.png used on input line 209.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/performance2.png, id=101, 1005.7575pt x 113.67468pt>
+<images/performance2.png, id=106, 1005.7575pt x 113.67468pt>
 File: images/performance2.png Graphic file (type png)
 
 <use images/performance2.png>
@@ -778,7 +792,7 @@ Package pdftex.def Info: images/performance2.png used on input line 215.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/performance3.png, id=102, 1010.27437pt x 112.92188pt>
+<images/performance3.png, id=107, 1010.27437pt x 112.92188pt>
 File: images/performance3.png Graphic file (type png)
 
 <use images/performance3.png>
@@ -788,7 +802,7 @@ Package pdftex.def Info: images/performance3.png used on input line 221.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/performanceR1.png, id=103, 1001.24063pt x 99.37125pt>
+<images/performanceR1.png, id=108, 1001.24063pt x 99.37125pt>
 File: images/performanceR1.png Graphic file (type png)
 
 <use images/performanceR1.png>
@@ -798,7 +812,7 @@ Package pdftex.def Info: images/performanceR1.png used on input line 227.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/performanceR2.png, id=104, 994.46532pt x 99.37125pt>
+<images/performanceR2.png, id=109, 994.46532pt x 99.37125pt>
 File: images/performanceR2.png Graphic file (type png)
 
 <use images/performanceR2.png>
@@ -808,7 +822,7 @@ Package pdftex.def Info: images/performanceR2.png used on input line 233.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/performanceR3.png, id=105, 1005.7575pt x 100.87688pt>
+<images/performanceR3.png, id=110, 1005.7575pt x 100.87688pt>
 File: images/performanceR3.png Graphic file (type png)
 
 <use images/performanceR3.png>
@@ -818,15 +832,9 @@ Package pdftex.def Info: images/performanceR3.png used on input line 239.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <C:/Users/User/Documents/GitHub/Top-level-testing/images/logs.png> <C:/User
-s/User/Documents/GitHub/Top-level-testing/images/buzzNotExistLog.png> <C:/Users
-/User/Documents/GitHub/Top-level-testing/images/couldNotFindSpaceLog.png> <C:/U
-sers/User/Documents/GitHub/Top-level-testing/images/manageSpaceLog.png> <C:/Use
-rs/User/Documents/GitHub/Top-level-testing/images/ClosedSpaceLog.png>] [14 <C:/
-Users/User/Documents/GitHub/Top-level-testing/images/unit_tests.png> <C:/Users/
-User/Documents/GitHub/Top-level-testing/images/integration.png> <C:/Users/User/
-Documents/GitHub/Top-level-testing/images/performance1.png>]
-<images/UsabilityScreenshotNavBar.png, id=118, 810.77907pt x 581.17125pt>
+[14 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/unit_tests.png> 
+<C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/integration.png>]
+<images/UsabilityScreenshotNavBar.png, id=116, 810.77907pt x 581.17125pt>
 File: images/UsabilityScreenshotNavBar.png Graphic file (type png)
 
 <use images/UsabilityScreenshotNavBar.png>
@@ -837,7 +845,7 @@ e 248.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/UsabilityExplanatoryButtons.png, id=119, 816.04875pt x 584.93532pt>
+<images/UsabilityExplanatoryButtons.png, id=117, 816.04875pt x 584.93532pt>
 File: images/UsabilityExplanatoryButtons.png Graphic file (type png)
 
 <use images/UsabilityExplanatoryButtons.png>
@@ -848,14 +856,16 @@ ine 255.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15 <C:/Users/User/Documents/GitHub/Top-level-testing/images/performance2.png> 
-<C:/Users/User/Documents/GitHub/Top-level-testing/images/performance3.png> <C:/
-Users/User/Documents/GitHub/Top-level-testing/images/performanceR1.png> <C:/Use
-rs/User/Documents/GitHub/Top-level-testing/images/performanceR2.png> <C:/Users/
-User/Documents/GitHub/Top-level-testing/images/performanceR3.png>] [16 <C:/User
-s/User/Documents/GitHub/Top-level-testing/images/UsabilityScreenshotNavBar.png>
- <C:/Users/User/Documents/GitHub/Top-level-testing/images/UsabilityExplanatoryB
-uttons.png>] <images/IndexContentInfra.png, id=138, 928.97063pt x 677.53125pt>
+[15 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/performance1.png
+> <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/performance2.png> 
+<C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/performance3.png> <C
+:/Users/GASwipper Gcc/Documents/Top-level-testing/images/performanceR1.png> <C:
+/Users/GASwipper Gcc/Documents/Top-level-testing/images/performanceR2.png> <C:/
+Users/GASwipper Gcc/Documents/Top-level-testing/images/performanceR3.png>]
+[16 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/UsabilityScreens
+hotNavBar.png> <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/Usabi
+lityExplanatoryButtons.png>]
+<images/IndexContentInfra.png, id=138, 928.97063pt x 677.53125pt>
 File: images/IndexContentInfra.png Graphic file (type png)
 
 <use images/IndexContentInfra.png>
@@ -871,8 +881,8 @@ Package pdftex.def Info: images/HbsFiles.png used on input line 273.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17 <C:/Users/User/Documents/GitHub/Top-level-testing/images/IndexContentInfra.
-png>] <images/JsonObject.png, id=145, 926.71219pt x 677.53125pt>
+[17 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/IndexContentInfr
+a.png>] <images/JsonObject.png, id=145, 926.71219pt x 677.53125pt>
 File: images/JsonObject.png Graphic file (type png)
 
 <use images/JsonObject.png>
@@ -893,7 +903,8 @@ Package pdftex.def Info: images/LinuxServerScreenShot.png used on input line 29
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/DatabaseSchema.png, id=147, 931.22906pt x 677.53125pt>
+[18 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/HbsFiles.png>]
+<images/DatabaseSchema.png, id=152, 931.22906pt x 677.53125pt>
 File: images/DatabaseSchema.png Graphic file (type png)
 
 <use images/DatabaseSchema.png>
@@ -903,7 +914,7 @@ Package pdftex.def Info: images/DatabaseSchema.png used on input line 306.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/databaseCurrent.png, id=148, 930.47626pt x 677.53125pt>
+<images/databaseCurrent.png, id=153, 930.47626pt x 677.53125pt>
 File: images/databaseCurrent.png Graphic file (type png)
 
 <use images/databaseCurrent.png>
@@ -913,7 +924,6 @@ Package pdftex.def Info: images/databaseCurrent.png used on input line 311.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18 <C:/Users/User/Documents/GitHub/Top-level-testing/images/HbsFiles.png>]
 <images/CSDSPackage.png, id=154, 928.97063pt x 677.53125pt>
 File: images/CSDSPackage.png Graphic file (type png)
 
@@ -924,28 +934,28 @@ Package pdftex.def Info: images/CSDSPackage.png used on input line 319.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(C:\Users\User\Documents\GitHub\Top-level-testing\buzzResourcesBModule.tex
-[19 <C:/Users/User/Documents/GitHub/Top-level-testing/images/JsonObject.png>]
-[20 <C:/Users/User/Documents/GitHub/Top-level-testing/images/LinuxServerScreenS
-hot.png>] [21 <C:/Users/User/Documents/GitHub/Top-level-testing/images/Database
-Schema.png> <C:/Users/User/Documents/GitHub/Top-level-testing/images/databaseCu
-rrent.png>])
-(C:\Users\User\Documents\GitHub\Top-level-testing\buzzBNotification.tex)
-(C:\Users\User\Documents\GitHub\Top-level-testing\statusB.tex [22 <C:/Users/Use
-r/Documents/GitHub/Top-level-testing/images/CSDSPackage.png>] [23]
+("C:\Users\GASwipper Gcc\Documents\Top-level-testing\buzzResourcesBModule.tex"
+[19 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/JsonObject.png>]
+[20 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/LinuxServerScree
+nShot.png>] [21 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/Data
+baseSchema.png> <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/data
+baseCurrent.png>])
+("C:\Users\GASwipper Gcc\Documents\Top-level-testing\buzzBNotification.tex"
+[22 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/CSDSPackage.png>
+]) ("C:\Users\GASwipper Gcc\Documents\Top-level-testing\statusB.tex" [23]
 Overfull \hbox (9.7525pt too wide) in paragraph at lines 32--33
 \OT1/cmr/m/n/12 be-ing able to post new con-tent in a thread). The post-conditi
 ons
  []
 
-
+[24]
 Overfull \hbox (16.05846pt too wide) in paragraph at lines 39--40
 \OT1/cmr/m/n/12 does not func-tion prop-erly and no ver-sion of cre-ateAp-prais
 alType
  []
 
-[24])
-(C:\Users\User\Documents\GitHub\Top-level-testing\BuzzDataSourcesModule.tex
+) ("C:\Users\GASwipper Gcc\Documents\Top-level-testing\BuzzDataSourcesModule.te
+x"
 Overfull \hbox (8.97363pt too wide) in paragraph at lines 3--4
 []\OT1/cmr/m/n/12 This mod-ule is re-spon-si-ble for sourc-ing data from the ex
 -ter-nal cs database
@@ -962,7 +972,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-<images/loginadministrativeerror.png, id=188, 898.85812pt x 553.31718pt>
+[25] <images/loginadministrativeerror.png, id=195, 898.85812pt x 553.31718pt>
 File: images/loginadministrativeerror.png Graphic file (type png)
 
 <use images/loginadministrativeerror.png>
@@ -970,20 +980,13 @@ Package pdftex.def Info: images/loginadministrativeerror.png used on input line
  25.
 (pdftex.def)             Requested size: 195.0pt x 120.03313pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/loginadministrative(whatBdid).png, id=189, 819.8128pt x 552.56438pt>
+<images/loginadministrative(whatBdid).png, id=196, 819.8128pt x 552.56438pt>
 File: images/loginadministrative(whatBdid).png Graphic file (type png)
 
 <use images/loginadministrative(whatBdid).png>
 Package pdftex.def Info: images/loginadministrative(whatBdid).png used on input
  line 33.
 (pdftex.def)             Requested size: 195.0pt x 131.42932pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
@@ -994,72 +997,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
  []
 
-[25] <images/modulesprovided.png, id=197, 821.31844pt x 554.82281pt>
+[26 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/loginadministrat
+iveerror.png> <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/logina
+dministrative(whatBdid).png>]
+<images/modulesprovided.png, id=205, 821.31844pt x 554.82281pt>
 File: images/modulesprovided.png Graphic file (type png)
 
 <use images/modulesprovided.png>
 Package pdftex.def Info: images/modulesprovided.png used on input line 54.
 (pdftex.def)             Requested size: 195.0pt x 131.721pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
  []
 
-[26 <C:/Users/User/Documents/GitHub/Top-level-testing/images/loginadministrativ
-eerror.png> <C:/Users/User/Documents/GitHub/Top-level-testing/images/loginadmin
-istrative(whatBdid).png>]
 <images/userswithroles.png, id=206, 804.75656pt x 542.025pt>
 File: images/userswithroles.png Graphic file (type png)
 
 <use images/userswithroles.png>
 Package pdftex.def Info: images/userswithroles.png used on input line 69.
 (pdftex.def)             Requested size: 195.0pt x 131.33751pt.
-)
-(C:\Users\User\Documents\GitHub\Top-level-testing\maintainabilityB.tex [27 <C:/
-Users/User/Documents/GitHub/Top-level-testing/images/modulesprovided.png> <C:/U
-sers/User/Documents/GitHub/Top-level-testing/images/userswithroles.png>])
-(C:\Users\User\Documents\GitHub\Top-level-testing\scalabilityB.tex)
-(C:\Users\User\Documents\GitHub\Top-level-testing\auditability.tex [28]
-<images/BuzzBAuditability.png, id=221, 418.56375pt x 258.9675pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) ("C:\Users\GASwipper Gcc\Documents\Top-level-testing\maintainabilityB.tex"
+[27 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/modulesprovided.
+png>]) ("C:\Users\GASwipper Gcc\Documents\Top-level-testing\scalabilityB.tex"
+[28 <C:/Users/GASwipper Gcc/Documents/Top-level-testing/images/userswithroles.p
+ng>]) ("C:\Users\GASwipper Gcc\Documents\Top-level-testing\auditability.tex"
+[29] <images/BuzzBAuditability.png, id=225, 418.56375pt x 258.9675pt>
 File: images/BuzzBAuditability.png Graphic file (type png)
 
 <use images/BuzzBAuditability.png>
 Package pdftex.def Info: images/BuzzBAuditability.png used on input line 21.
 (pdftex.def)             Requested size: 331.50238pt x 205.09972pt.
 )
-(C:\Users\User\Documents\GitHub\Top-level-testing\testability.tex [29 <C:/Users
-/User/Documents/GitHub/Top-level-testing/images/BuzzBAuditability.png>])
-(C:\Users\User\Documents\GitHub\Top-level-testing\performance.tex)
-(C:\Users\User\Documents\GitHub\Top-level-testing\reliabilityavailibility.tex
-[30])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
- [31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+("C:\Users\GASwipper Gcc\Documents\Top-level-testing\testability.tex" [30 <C:/U
+sers/GASwipper Gcc/Documents/Top-level-testing/images/BuzzBAuditability.png>])
+("C:\Users\GASwipper Gcc\Documents\Top-level-testing\performance.tex")
+("C:\Users\GASwipper Gcc\Documents\Top-level-testing\reliabilityavailibility.te
+x" [31]) [32]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
+ [33]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
 
-(C:\Users\User\Documents\GitHub\Top-level-testing\Top_Level_Testing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 349.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
+("C:\Users\GASwipper Gcc\Documents\Top-level-testing\Top_Level_Testing.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 354.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 354.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 354.
  ) 
 Here is how much of TeX's memory you used:
- 6024 strings out of 493921
- 91994 string characters out of 3144880
+ 6028 strings out of 493921
+ 92096 string characters out of 3144852
  165548 words of memory out of 3000000
- 9104 multiletter control sequences out of 15000+200000
+ 9105 multiletter control sequences out of 15000+200000
  7894 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 35i,7n,30p,960b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,7n,30p,1143b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Top_Level_Testing.pdf (31 pages, 1837630 bytes).
+Output written on Top_Level_Testing.pdf (33 pages, 1847526 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
