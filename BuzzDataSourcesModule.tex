@@ -12,8 +12,8 @@ This is the service that will authenticate against the cs data source where auth
 
 \begin {itemize}
 \item Pre-conditions:\\
--could connect to CS data source (LDAP) (Not implemented-The system does not connect or acquire data from the 			computer science database )\\
-        -user exists in ldap with provided authentication details (Implemented-The system has users that can connect to the system but are not 		in the cs data source, dummy users were created to provide the login 				functionality)\\
+-should connect to CS data source (LDAP) (Not implemented-The system does not connect or acquire data from the computer science database )\\
+        -user exists in ldap with provided authentication details (Implemented-The system has users that can connect to the system but are not in the cs data source, dummy users were created to provide the login functionality)\\
 \item Post-conditions:\\
 userID returned (not implemented-Code was found but no functionality)  
 \end {itemize}
@@ -41,7 +41,7 @@ This service is to query the user roles for a particular user\\
 
 \begin {itemize}
 \item Pre-conditions:\\
--could connect to CS data source (LDAP) (not implemented-No modules from cs data source where found , only one 			hard coded one)\\
+-should connect to CS data source (LDAP) (not implemented-No modules from cs data source where found , only one hard coded one)\\
         -user exists in ldap with provided authentication details (Not Implemented)\\
 \item Post-conditions:\\
 userID returned (not implemented)  
@@ -62,7 +62,7 @@ This service is required to retrieve al the users which have a role for a partic
 \\
 
 \item Pre-conditions:\\
--could connect to CS data source (LDAP) (not implemented-Not Implemented) No code found and no administrative users on site\\
+-should connect to CS data source (LDAP) (not implemented) No code found and no administrative users on site\\
  \begin{figure}[h!]
   \centering
     \reflectbox{%
