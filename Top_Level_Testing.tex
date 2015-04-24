@@ -111,8 +111,7 @@ The log in user interface:
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{logFile}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{logFile} 
 \end{figure}
 
 Determine if the user is authorised to close the buzz space:
@@ -120,8 +119,7 @@ Determine if the user is authorised to close the buzz space:
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{closeBuzzSpace}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{closeBuzzSpace} 
 \end{figure}
 
 Assign an admin to a BuzzSpace:
@@ -129,8 +127,7 @@ Assign an admin to a BuzzSpace:
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{addAdmin}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{addAdmin} 
 \end{figure}
 
 
@@ -146,14 +143,12 @@ The audit log can be accessed by humans and the system.
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{logsFile}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{logsFile} 
 \end{figure}
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{logs}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{logs} 
 \end{figure}
 
 An example of responses that are logged:
@@ -161,32 +156,28 @@ A buzzSpace does not exist:
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{buzzNotExistLog}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{buzzNotExistLog} 
 \end{figure}
 
 Could not find space to remove:
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{couldNotFindSpaceLog}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{couldNotFindSpaceLog} 
 \end{figure}
 
 Request to manage space COS9:
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{manageSpaceLog}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{manageSpaceLog} 
 \end{figure}
 
 Response that states a space was closed successfully:
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{ClosedSpaceLog}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{ClosedSpaceLog} 
 \end{figure}
 
 \item Testability:
@@ -195,8 +186,7 @@ Unit testing for threads:
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{unit_tests}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{unit_tests} 
 \end{figure}
 
 
@@ -206,8 +196,7 @@ In this instance authorisation is checked outside of the module that is was crea
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{integration}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{integration} 
 \end{figure}
 
 
@@ -256,11 +245,15 @@ The system is usable because firstly the necessary actions that a user can take 
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{integration}
-    \caption{Buzz Space B Auditability Test}
+    \includegraphics[width=0.85\textwidth]{UsabilityScreenshotNavBar.png} 
 \end{figure}
 
 The interface is not cluttered, and only basic functionality is displayed on the home screen, making the system more learnable. The buttons are labelled with text rather than with graphical icons, and the text on the button is quite explanatory, which makes their purpose more clear. 
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{UsabilityExplanatoryButtons} 
+\end{figure}
 
 Larger headings are used to label the different sections, for example under the Manage Constraints tab there are large headings to indicate the Existing constraints section and the Add new constraint section. This again contributes to ease of use for the novice first year user.
 
@@ -270,6 +263,16 @@ Through these mechanisms the system is memborable hence it is also be understand
 
 The system is able to address future integration requirements by providing access to its services using widely adopted public standards such as firstly having separate npm packages for all the different modules. The packages are stored on Synopia. Also, electrolyte is being used in the server to provide a dependency injection. The HandleBars server is the main server that needs to be used to test and integrate all the modules on. The routes/index.js, routes/infrastructure.js and routes/content.js files use express to route the different hbs files for the different modules in order to integrate the infrastructure and content subsystems into the main system. 
 
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{IndexContentInfra} 
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{HbsFiles} 
+\end{figure}
+
 A separate file is used to establish the connection to the database to avoid having this done in all the separate files. Also, global variables are now used such as the global password and username for example. 
 
 A document has been provided via email and a README file has been provided to specify important standards and regulations that must be followed.
@@ -278,16 +281,44 @@ The functional code in the separate packages must be placed in an exportable fun
 
 Exports are also used in the different files to make the code accessible to the other files.
 
+The following screenshot indicates the systems' integratibility because it is clear that the following function is able to accept standards such as json strings for objects. This is intergrateble because the interface does not know which functions are sending the aforementioned objects. Therefore it allows the interface to be connected to any backend system.
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{JsonObject} 
+\end{figure}
+
+
 \item Deployability:
 
 The system is deployable on Linux servers as we have run it using Ubuntu 14.04 Linux and the system was able to run. The following screenshot shows the system running on a Linux server:
 
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{LinuxServerScreenShot} 
+\end{figure}
+
 The system is deployable on an environment using different databases for persistence of the Buzz database because the Handlebars server contains a folder called node\_modules, and it contains the buzz\_database package. This package can easily be swapped out and an alternative database package can be plugged in, that the system can use due to the flexibility of this server. As long as the new package has the same name so that the files that require the database do not need to be changed, no major changes will need to be made.  
-//screenshot
+ 
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{DatabaseSchema} 
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{databaseCurrent} 
+\end{figure}
 
 The system is deployable in environments where the user authentication credentials and roles are sourced from different repositories. The following screenshot indicates that the Handlebars server contains a folder called node\_modules, and it contains the buzz\_csds package. 
-//screenshot
 
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{CSDSPackage} 
+\end{figure}
+ 
 This package can easily be swapped out and an alternative data source package with different credentials and roles can be used, due to the pluggability of the system and dependency injection employed by the top level team. The new package must just be named the same as the old one to avoid errors where the file is required from the package in the code. 
 
 \end{enumerate}
