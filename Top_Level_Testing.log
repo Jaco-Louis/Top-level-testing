@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.9)  24 APR 2015 18:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.9)  24 APR 2015 19:10
 entering extended mode
 **Top_Level_Testing.tex
 (C:\Users\User\Documents\GitHub\Top-level-testing\Top_Level_Testing.tex
@@ -1019,37 +1019,100 @@ File: images/userswithroles.png Graphic file (type png)
 Package pdftex.def Info: images/userswithroles.png used on input line 69.
 (pdftex.def)             Requested size: 195.0pt x 131.33751pt.
 )
-(C:\Users\User\Documents\GitHub\Top-level-testing\maintainabilityB.tex [27 <C:/
-Users/User/Documents/GitHub/Top-level-testing/images/modulesprovided.png> <C:/U
-sers/User/Documents/GitHub/Top-level-testing/images/userswithroles.png>])
-(C:\Users\User\Documents\GitHub\Top-level-testing\scalabilityB.tex)
-(C:\Users\User\Documents\GitHub\Top-level-testing\auditability.tex [28]
-<images/BuzzBAuditability.png, id=221, 418.56375pt x 258.9675pt>
+(C:\Users\User\Documents\GitHub\Top-level-testing\webModule.tex [27 <C:/Users/U
+ser/Documents/GitHub/Top-level-testing/images/modulesprovided.png> <C:/Users/Us
+er/Documents/GitHub/Top-level-testing/images/userswithroles.png>]
+File: images/loginadministrative(whatBdid).png Graphic file (type png)
+
+<use images/loginadministrative(whatBdid).png>
+Package pdftex.def Info: images/loginadministrative(whatBdid).png used on input
+ line 16.
+(pdftex.def)             Requested size: 194.99527pt x 113.8076pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+
+ []
+
+File: images/userswithroles.png Graphic file (type png)
+<use images/userswithroles.png>
+Package pdftex.def Info: images/userswithroles.png used on input line 33.
+(pdftex.def)             Requested size: 194.99973pt x 113.80379pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+[28] <images/threads.png, id=222, 813.0375pt x 550.30594pt>
+File: images/threads.png Graphic file (type png)
+
+<use images/threads.png>
+Package pdftex.def Info: images/threads.png used on input line 43.
+(pdftex.def)             Requested size: 194.99652pt x 113.80429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+<images/repytoposterror.png, id=223, 820.56563pt x 555.57562pt>
+File: images/repytoposterror.png Graphic file (type png)
+
+<use images/repytoposterror.png>
+Package pdftex.def Info: images/repytoposterror.png used on input line 57.
+(pdftex.def)             Requested size: 194.99904pt x 113.80896pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
+
+ []
+
+[29 <C:/Users/User/Documents/GitHub/Top-level-testing/images/threads.png> <C:/U
+sers/User/Documents/GitHub/Top-level-testing/images/repytoposterror.png>]
+<images/dummyprofileprovided.png, id=232, 779.91376pt x 553.31718pt>
+File: images/dummyprofileprovided.png Graphic file (type png)
+
+<use images/dummyprofileprovided.png>
+Package pdftex.def Info: images/dummyprofileprovided.png used on input line 70.
+
+(pdftex.def)             Requested size: 194.98985pt x 113.81068pt.
+)
+(C:\Users\User\Documents\GitHub\Top-level-testing\maintainabilityB.tex [30 <C:/
+Users/User/Documents/GitHub/Top-level-testing/images/dummyprofileprovided.png>]
+) (C:\Users\User\Documents\GitHub\Top-level-testing\scalabilityB.tex)
+(C:\Users\User\Documents\GitHub\Top-level-testing\auditability.tex [31]
+<images/BuzzBAuditability.png, id=246, 418.56375pt x 258.9675pt>
 File: images/BuzzBAuditability.png Graphic file (type png)
 
 <use images/BuzzBAuditability.png>
 Package pdftex.def Info: images/BuzzBAuditability.png used on input line 21.
 (pdftex.def)             Requested size: 331.50238pt x 205.09972pt.
 )
-(C:\Users\User\Documents\GitHub\Top-level-testing\testability.tex [29 <C:/Users
+(C:\Users\User\Documents\GitHub\Top-level-testing\testability.tex [32 <C:/Users
 /User/Documents/GitHub/Top-level-testing/images/BuzzBAuditability.png>])
 (C:\Users\User\Documents\GitHub\Top-level-testing\performance.tex)
 (C:\Users\User\Documents\GitHub\Top-level-testing\reliabilityavailibility.tex
-[30])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
- [31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+[33]) (C:\Users\User\Documents\GitHub\Top-level-testing\IntegratibilityB.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
-(C:\Users\User\Documents\GitHub\Top-level-testing\Top_Level_Testing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 349.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
+ []
+
+) (C:\Users\User\Documents\GitHub\Top-level-testing\DeployabilityB.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 352.
+ [34]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 352.
+ (C:\Users\User\Documents\GitHub\Top-level-testing\Top_Level_Testing.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 352.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 352.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 352.
  ) 
 Here is how much of TeX's memory you used:
- 6024 strings out of 493921
- 91994 string characters out of 3144880
+ 6059 strings out of 493921
+ 92927 string characters out of 3144880
  165548 words of memory out of 3000000
- 9104 multiletter control sequences out of 15000+200000
+ 9116 multiletter control sequences out of 15000+200000
  7894 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  35i,7n,30p,960b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1057,9 +1120,9 @@ Here is how much of TeX's memory you used:
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Top_Level_Testing.pdf (31 pages, 1837630 bytes).
+Output written on Top_Level_Testing.pdf (34 pages, 2133472 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 250 words of extra memory for PDF output out of 10000 (max. 10000000)
 
