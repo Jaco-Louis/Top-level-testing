@@ -46,6 +46,8 @@ Larger headings are used to label the different sections, for example under the 
 
 Through these mechanisms the system is memborable hence it is also be understandable.  
 
+The system does not satisfy the requirement that the system should support the three official languages of the University.
+
 Integratibility 
 __________________________________________________________________
 The system is able to address future integration requirements by providing access to its services using widely adopted public standards such as firstly having seperate npm packages for all the different modules. The packages are stored on Synopia. Also, electrolyte is being used in the server to provide a dependancy injection. The HandleBars server is the main server that needs to be used to test and integrate all the modules on. The routes/index.js, routes/infrastructure.js and routes/content.js files use express to route the different hbs files for the different modules in order to integrate the infrastructure and content subsystems into the main system. 
@@ -58,18 +60,21 @@ The functional code in the seperate packages must be placed in an exportable fun
 
 Exports are also used in the different files to make the code accessible to the other files.
 
+The following screenshot indicates the systems' integratibility because it is clear that the following function is able to accept standards such as json strings for objects. This is intergrateble because the interface does not know which functions are sending the aforementioned objects. Therefore it allows the interface to be connected to any backend system.
 
 Deployability
 __________________________________________________________________
 The system is deployable on Linux servers as we have run it using Ubuntu 14.04 Linux and the system was able to run. The following screenshot shows the system running on a Linux server:
 
-The system is deployable on an environment using different databases for persistence of the Buzz datatabase because the Handlebars server contains a folder called node_modules, and it contains the buzz_database package. This package can easily be swopped out andan alternative database package can be plugged in, that the system can use due to the flexibility of this server. As long as the new package has the same name so that the files that require the database do not need to be changed, no major changes will need to be made.  
-//screenshot
+The system is deployable on an environment using different databases for persistence of the Buzz datatabase because the Handlebars server contains a folder called node_modules, and it contains the buzz_database package. This package can easily be swopped out and an alternative database package can be plugged in, that the system can use due to the flexibility of this server. As long as the new package has the same name so that the files that require the database do not need to be changed, no major changes will need to be made.  
 
-The system is deployable in environments where the user authentication credentials and roles are sourced from different repositories. The following screenshot indicates that the Handlebars server contains a folder called node_modules, and it contains the buzz_csds package. 
-//screenshot
+In the following screenshot, it is shown how the database is accessed via the dataset schema. This can easily be replaced by a mysql query for example.
 
-This package can easily be swopped out and an alternative data source package with different credentials and roles can be used, due to the pluggability of the system and dependancy injection employed by the top level team. The new package must just be named the same as the old one to avoid errors where the file is required from the package in the code. 
+The next screenshot indicates how the connection to the database is made, and it is taken from buzz-database package in the database.js file. This file can be replaced for different databases' connections. 
+
+The system is deployable in environments where the user authentication credentials and roles are sourced from different repositories. The following screenshot indicates that the Handlebars server contains a folder called node_modules, and it contains the buzz_csds package.  
+
+This package can easily be swopped out and an alternative data source package with different credentials and roles can be used, due to the pluggability of the system and dependancy injection employed by the top level team. The new package must just be named the same as the old one to avoid errors where the file is required from the package in the code. Hence, it satisfies the requirement. The package and the csds javascript is displayed in the following screenshot.
 
 
 
