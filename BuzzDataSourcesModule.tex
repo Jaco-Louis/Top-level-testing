@@ -1,9 +1,15 @@
-\item Maintainability:
-The Buzz(B) system is maintainable in the following aspects:
-\item Use Cases
+\item Buzz data source Module:
+
+This module is responsible for sourcing data from the external cs database (Read Access) and using it for authentication and representation purposes.
+
+
+\textbf{Use Cases}
 \begin {itemize}
+
+
 \item {Login and Administrative user}\\
-This is the service that wil authenticate against the cs data source where authentication credentials are stored
+This is the service that will authenticate against the cs data source where authentication credentials are stored
+
 \begin {itemize}
 \item Pre-conditions:\\
 -could connect to CS data source (LDAP) (Not implemented-The system does not connect or acquire data from the 			computer science database )\\
@@ -11,13 +17,16 @@ This is the service that wil authenticate against the cs data source where authe
 \item Post-conditions:\\
 userID returned (not implemented-Code was found but no functionality)  
 \end {itemize}
-\end {itemize}
+
+ 
 \begin{figure}[h!]
   \centering
     \reflectbox{%
       \includegraphics[width=0.5\textwidth]{loginadministrativeerror}}
   \caption{result to a user from the cs database trying to login }
 \end{figure}
+
+
 \begin{figure}[h!]
   \centering
     \reflectbox{%
@@ -25,9 +34,11 @@ userID returned (not implemented-Code was found but no functionality)
   \caption{result to a dummy user not in the cs database trying to login }
 \end{figure}
 
-\begin {itemize}
+ 
 \item {getUsersRolesForModule}\\
 This service is to query the user roles for a particular user\\
+
+
 \begin {itemize}
 \item Pre-conditions:\\
 -could connect to CS data source (LDAP) (not implemented-No modules from cs data source where found , only one 			hard coded one)\\
@@ -35,18 +46,21 @@ This service is to query the user roles for a particular user\\
 \item Post-conditions:\\
 userID returned (not implemented)  
 \end {itemize}
+
+
 \begin{figure}[h!]
   \centering
     \reflectbox{%
       \includegraphics[width=0.5\textwidth]{modulesprovided}}
   \caption{result to a dummy user not in the cs database trying to login }
 \end{figure}
-\end {itemize}
+
+ 
 \begin {itemize}
 \item {GetUsersWithRole}\\
 This service is required to retrieve al the users which have a role for a particular module
 \\
-\begin {itemize}
+
 \item Pre-conditions:\\
 -could connect to CS data source (LDAP) (not implemented-Not Implemented) No code found and no administrative users on site\\
  \begin{figure}[h!]
@@ -54,5 +68,8 @@ This service is required to retrieve al the users which have a role for a partic
     \reflectbox{%
       \includegraphics[width=0.5\textwidth]{userswithroles}}
   \caption{result to a dummy user not in the cs database trying to login }
-\end{figure}      
+\end{figure}   
+
+
+ \end {itemize}  
 \end {itemize}
