@@ -42,9 +42,9 @@ This is the service used to set a buzz space to inactive.
 \begin {itemize}
 \item Pre-conditions: \\
 -noSuchBuzzSpace (if buzz space to be closed does not exist then one can't close it) (was unable to find a non existent buzz space to test this)\\
-        -notAuthorized (only an admin user of a buzz space can close the buzz space) (not implemented, was able to close a space I was not an admin for)\\
+        -notAuthorized (only an admin user of a buzz space can close the buzz space) ( implemented, was unable to close a space I was not an admin for)\\
 \item Post-conditions:\\
--buzz space no longer active (reflected upon returning to the home page)\\
+-message to inform the user that they do not have authorisation to close the buzz space\\
 \end{itemize}
 
 \begin{figure}[h!]
@@ -54,7 +54,7 @@ This is the service used to set a buzz space to inactive.
 
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.85\textwidth]{buzzSpaceCloseSuccessful} 
+    \includegraphics[width=0.85\textwidth]{cannotCloseBuzzSpace} 
 \end{figure}
 
 \begin{figure}[h!]
