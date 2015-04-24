@@ -1,0 +1,37 @@
+Status:
+The Buzz-Status module was expected to atleast implemetn these 6 functional processes:
+	1.	assessProfile:
+	•	Objective: Serve as a general interface through which lecturers can choose a pluggable implementation with which to assess user profiles.
+	•	Pre-conditions: Have some form of administrative and general users. Have profiles for users of the Buzz system. 
+	•	Post-conditions: ProfileAssessor can return queried information about a users profile according to various criterioun but must, as a minimal requirement, at least be able to calculate the user’s status (i.e. the user’s rating).
+	•	Testing: Although both pre-conditions were met, no actual implementation for this functional requirement is present in the Buzz system (meaning post-conditions not met).
+	
+	2.	setStatusCalculator:
+	•	Objective: An interface through which a StatusCalculator can be assigned. The StatusCalculator is used to assign a status value to a user according to specific criteria. The default StatusCalculator should be NumPostAssesor which assigns a status directly proportional to the number of posts a user has made.
+	•	Pre-conditions: Have some form of administrative and general users. Have profiles for users of the Buzz system. Have a space where users can post content (this is a pre-condition for the default StatusCalculator, i.e. NumPostAssessor)
+	•	Post-conditions: The assigned StatusCalculator must be able to assign a status value to all users.
+	•	Testing: Only the first two pre-conditions are met. Although there is a space where users can post content (i.e. http://buzz-codechat.rhcloud.com/spaces/) it does not fulfil any of its required functionality (i.e. can’t successfully post content, no thread handling). There is no implementation of a StatusCalculator present in the Buzz system, therefore no post-conditions were met.
+
+	3.	getStatusForProfile:
+	•	Objective: A simple query which returns the user’s status.
+	•	Pre-conditions: Have profiles for users of the Buzz system. Each user has a status.
+	•	Post-conditions: The user’s status is returned.
+	•	Testing: Only the first pre-condition is met (i.e. user’s do not have statuses). There is no way of storing a user’s status in the Buzz system, it therefore fails to meet the post-condition.
+	
+	4.	createAppraisalType:
+	•	Objective: Be able to create a data structure by which posts can be graded/appraised (e.g. FunnyAppraisalType allows user to mark a post as Hilarious, Funny or Boring).
+	•	Pre-conditions: Have a space were posts can be displayed.
+	•	Post-conditions: Have a user created data structure which can then be used to appraise/rank a post.
+	•	Testing: The pre-condition is not met as although a space for posts exists, none of the required functionality exist (e.g. being able to post new content in a thread). The post-conditions are not met as no functions in the Buzz system implements the required functionality.
+	
+	5.	activateAppraisalType:
+	•	Objective: Assign an appraisal type (which was created by createAppraisalType) to be used in a specific Buzz space for a specific period of time.
+	•	Pre-conditions: Have a space were posts can be displayed. Have a function(s) which implements createAppraisalType.
+	•	Post-conditions: Be able to use user created appraisal types in a certain buzz space for a specific period of time.
+	•	Testing: Neither pre-conditions are met as the Buzz space does not function properly and no version of createAppraisalType was implemented. This function was not implemented which means no post-conditions were met.
+	
+	6.	assignAppraisalToPost:
+	•	Objective: Allows the user to assign an appraisal to a post (i.e. rate a post).
+	•	Pre-conditions: Have a space were posts can be displayed.
+	•	Post-conditions: The ranking/status of both the post and the user who posted the post will change.
+	•	Testing: The pre-condition is not met as  the Buzz space does not function properly. This function was not implemented which means no post-conditions were met.
