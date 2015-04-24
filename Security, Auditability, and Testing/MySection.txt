@@ -4,7 +4,7 @@ The system needs to support:
 
 Authentication against a chosen user repository: (initially against the LDAP repository of the Computer Science Department of the University of Pretoria).
 
-The system requires a username and a password to perform authentication and to allow the user to log in. The system successfully performs authentication against the LDAP repository of the CS Department. 
+The system is not secure. It does require a username and password in order for a user to login, but it does not allow take into account the level of authorisation users have. For example, anyone can create a new buzz space, constraint, or post without being logged in.
 
 
 
@@ -12,8 +12,4 @@ The system requires a username and a password to perform authentication and to a
 
 Auditability
 
-The system does not log any requests or responses. 
-
-Testability
-
-
+The system does not support auditability. There is no log file or means of keeping record of the requests and who made them, and the responses to these requests.
