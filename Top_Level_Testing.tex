@@ -74,6 +74,36 @@ This document contains the findings of the various activities performed as per t
 \subsubsection{Non-functional Testing} 
 
 \begin{enumerate}
+\item Maintainibility: 
+
+In order for a sytem to be maintainable, the system should be both flexible and extensible.  For developers to continue maintenance on the system, it would require that the system should be easy to understand, the technologies used should be available for an extended period of time and developers should be able to easily add new functionality to the system. 
+
+The code tested satisfies the condition that it should be able to understand the system. The system developed is not cluttered and difficult to understand due to good extraction between layers in the Model View Controller model. An obstacle in trying to understand the system is that the code has not been thoroughly documented. This causes some difficulties when trying to gain a better context about certain functions, why they are there and what their purposes are.
+
+The technologies chosen satisfies the requirement of having to be available for a long period of time. The technologies used (such as Node js), are relevantly new platform and therefore they are constantly being updated. This will ensure long use of the technologies, enhancing maintainability.
+
+Developers would be able to easily maintain the code in the sense of adding new features. This is made possible for example by making use of the simple way to add a new route to the program. There might however be slight difficulties when trying to change certain aspects of the system, due to the system being developed too specific, rather than focusing on adaptability. More emphasis was put on being able to easily add to the system, rather than changing the system, though it will still be possible it would only take longer than adding to the system.
+
+\Item Scalability:
+
+In order for a system to be scalable, the system should be able to expand and scale in order to handle a larger load or to serve more clients. 
+
+The system satisfies scalability in the sense that it is currently able to handle all the modules for the computer science department. This is however only a small portion of what the system should be capable of doing. The system should theoretically be able to scale in order to service 50 000 students. This should not be a problem for the system, due to the technologies that it are using. Node js is a lot more scalable than Apache, even though it is only single threaded by default. The use of MongoDB, rather than MySql also increases the scalability of the server [1].  The scalability of Node js can be increased by using multi-core CPUs rather than a single core CPU and load balancers can be implemented. This will ensure that the server application scales more than enough in order to be able to serve the required amount of users. This can however only be done when purchasing more efficient hardware for the host machine. 
+
+\item Performance:
+
+The performance requirements set out in the formal specification stated that all non reporting operations should respond within less than 0.2 seconds. The specification also stated that report queries should not take any longer than 5 seconds.
+
+The performance testing was done using Firebug for Firefox. Almost all of the non reporting requests responded well under 0.1 seconds. The only cases where the server did not respond fast enough, was when the page was initially requested. The initial page request resulted in a response time of 1.33s which was the worst case. On average the initial request for the homepage resulted in about 305ms response time. 
+The next case that took longer than it should, is when a page is requested that does not exist. The reason for this decrease in performance is due to the server searching for a route that does not exist. The server will then eventually just give up and return the error page. This resulted in an average response time of about 286ms. 
+
+The overall average response time for requests is about 150ms as determined by firebug. Below are some screenshots created during the testing of non reporting requests.
+
+The performance for the reporting use cases exceeded expectations by perfoming well under the recommended 5s. This might however change as the database size increases. Testing was limited to the usage of a fairly small size database. 
+
+On average the generating of a report averaged at about 310ms. Below are some screenshots that was taken during the performance testing of the report requests. 
+
+
 \item Usability:
 
 The system is usable because firstly the necessary actions that a user can take appear in a navigation bar at the top of the screen. Thus it is easy for a novice user to be able to know what to click on and navigate the website. 
