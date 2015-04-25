@@ -3,7 +3,7 @@
 The Threads module was expected to at least implement these 6 functional processes:
 	
 \begin{enumerate}
-	\item submitPost:
+\item submitPost:
 	\begin{itemize}
 		\item\textbf{Objective: } Used to submit a post to a thread by creating a child thread.
 		\item\textbf{Pre-conditions: } The buzz space must be active (i.e. exist). The user submitting the post must exist and be a registered user on that buzz space. 
@@ -16,7 +16,7 @@ The Threads module was expected to at least implement these 6 functional process
     \caption{Implementation of the createNewThread function}
 \end{figure}
 	\end{itemize}
-\item 2.	markPostAsRead:
+\item markPostAsRead:
 	\begin{itemize}
 		\item\textbf{Objective: } Create a data object when a user reads a post. The data object will contain information about the reading event such as which user read the post at what time.
 		\item\textbf{Pre-conditions: } This function requires a post and a user to read the post so that it can save the relevant information regarding the reading event.
