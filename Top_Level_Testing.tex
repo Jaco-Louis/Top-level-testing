@@ -74,9 +74,9 @@ This document contains the findings of the various activities performed as per t
 \subsubsection{Non-functional Testing} 
 
 \begin{enumerate}
-\item Maintainibility: 
+\item Maintainability: 
 
-In order for a sytem to be maintainable, the system should be both flexible and extensible.  For developers to continue maintenance on the system, it would require that the system should be easy to understand, the technologies used should be available for an extended period of time and developers should be able to easily add new functionality to the system. 
+In order for a system to be maintainable, the system should be both flexible and extensible.  For developers to continue maintenance on the system, it would require that the system should be easy to understand, the technologies used should be available for an extended period of time and developers should be able to easily add new functionality to the system. 
 
 The code tested satisfies the condition that it should be able to understand the system. The system developed is not cluttered and difficult to understand due to good extraction between layers in the Model View Controller model. An obstacle in trying to understand the system is that the code has not been thoroughly documented. This causes some difficulties when trying to gain a better context about certain functions, why they are there and what their purposes are.
 
@@ -99,10 +99,45 @@ The next case that took longer than it should, is when a page is requested that 
 
 The overall average response time for requests is about 150ms as determined by firebug. Below are some screenshots created during the testing of non reporting requests.
 
-The performance for the reporting use cases exceeded expectations by perfoming well under the recommended 5s. This might however change as the database size increases. Testing was limited to the usage of a fairly small size database. 
+The performance for the reporting use cases exceeded expectations by performing well under the recommended 5s. This might however change as the database size increases. Testing was limited to the usage of a fairly small size database. 
 
 On average the generating of a report averaged at about 310ms. Below are some screenshots that was taken during the performance testing of the report requests. 
 
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{performance1}
+    \caption{Non reporting based request for constraints}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{performance2}
+    \caption{Non reporting based request for contributors}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{performance3}
+    \caption{Non reporting based request for test Post. Results in 404 error}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{performanceR1}
+    \caption{Reporting based request}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{performanceR2}
+    \caption{Reporting based request}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.85\textwidth]{performanceR3}
+    \caption{Reporting based request}
+\end{figure}
 
 \item Usability:
 
