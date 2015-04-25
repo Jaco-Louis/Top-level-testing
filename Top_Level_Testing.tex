@@ -48,7 +48,7 @@
 \newpage
 
 \section{Introduction}
-The testing phase of the mini project requires thorough testing of all the aspects of both systems developed. This includes both functional and non-functional aspect of the systems. The Buzz system aimed to assist users to collaborate and share knowledge with fellow students. The system was designed in order to create modules for the various functionality required, these modules needed to be integrated to create the desired system. Both systems were developed and needed to be tested. The testing of both systems will be discussed in the following sections.
+The testing phase of the mini project required thorough testing of all the aspects of both systems developed. This included testing both the functional and non-functional aspects. The following report discusess the different aspects tested from the two different systems, A and B.For the functional testing, this includes tests performed and a discussion about whether the system's use cases are met or not. The Buzz system aimed to assist users to collaborate and share knowledge with fellow students. The Buzz System was designed in order to create modules for the various functionality required, these modules needed to be integrated to create the desired system. The testing of both systems will be discussed in the following sections.
 
 \section{Testing Results}
 \subsection{Top Level A Testing Results}
@@ -66,6 +66,9 @@ The testing phase of the mini project requires thorough testing of all the aspec
 
 \item Buzz-reporting
 \input {reporting}
+
+\item Buzz-authorization
+\input {Auth}
 
 \end {enumerate}
  
@@ -335,8 +338,17 @@ This package can easily be swapped out and an alternative data source package wi
 \input{buzzResourcesBModule}
 \input{buzzBNotification}
 \input{statusB}
+\input{threadsB}
 \input{BuzzDataSourcesModule}
+<<<<<<< HEAD
 %\input{reportingB}
+=======
+
+\input{webModule}
+
+\input{reportingB}
+
+>>>>>>> 013b91176580a105e5b43bf641d5c11f3e03b694
 \end{enumerate}
 
 \subsubsection{Non-functional Testing} 
@@ -348,6 +360,8 @@ This package can easily be swapped out and an alternative data source package wi
 \input{testability}
 \input{performance}
 \input{reliabilityavailibility}
+\input{IntegratibilityB}
+\input{DeployabilityB}
 \end{enumerate}
 
 \newpage
